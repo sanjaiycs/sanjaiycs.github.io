@@ -104,6 +104,7 @@ final TextEditingController passwordController = TextEditingController();
           context,
           MaterialPageRoute(
             builder: (context) => SecondScreen(home:Scaffold(appBar:AppBar(title:Text("hello"))),), // Navigate to your next screen
+         
           ),
         );
       if (userCredential.user != null) {
